@@ -8,7 +8,7 @@ export default function Home() {
         <title>Lazy CSS - An open source sass-based CSS framework</title>
       </Head>
 
-      <div className='p-3'>
+      <div className='p-3 mt-4'>
         <h1 className=''>This is index</h1>
       </div>
 

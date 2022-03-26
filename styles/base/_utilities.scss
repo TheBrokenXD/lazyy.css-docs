@@ -91,6 +91,28 @@ $utilities: (
       "column": column,
     )
   ),
+  "flex-wrap": (
+    "prefix": "flex-wrap",
+    "values": (
+      "nowrap": nowrap,
+      "wrap": wrap,
+      "wrap-reverse": wrap-reverse
+    )
+  ),
+  "flex-grow": (
+    "prefix": "flex-grow",
+    "values": (
+      "grow": 1,
+      "grow-0": 0,
+    )
+  ),
+  "flex-shrink": (
+    "prefix": "flex-shrink",
+    "values": (
+      "shrink": 1,
+      "shrink-0": 0,
+    )
+  ),
   "justify-content": (
     "prefix": "justify",
     "values": (
@@ -413,6 +435,13 @@ $utilities: (
       "xl-8": $base-font-size * 8,
     )
   ),
+  "font-style": (
+    "prefix": "fs",
+    "values": (
+      "normal": normal,
+      "italic": italic
+    )
+  ),
   "font-weight": (
     "prefix": "fw",
     "values": (
@@ -584,6 +613,33 @@ $utilities: (
       "80": 0.8,
       "90": 0.9,
       "100": 1,
+    ),
+  ),
+
+  // interaction
+  "cursor": (
+    "prefix": "cursor",
+    "values": (
+      "default": default,
+      "pointer": pointer,
+      "text": text,
+      "wait": wait,
+      "move": move,
+      "not-allowed": not-allowed,
+      "help": help,
+      "zoom-in": zoom-in,
+      "zoom-out": zoom-out,
+      "grab": grab,
+      "grabbing": grabbing,
+      "none": none
+    ),
+  ),
+  "scroll-behavior": (
+    "prefix": "scroll",
+    "values": (
+      "smooth": smooth,
+      "auto": auto,
+      "instant": instant,
     ),
   )
 

@@ -18,8 +18,10 @@ const Layout = ({ children }) => {
       <>
 
         <Navbar />
-        <div className="display-f mt-5">
-            <Sidebar />
+        <div className="display-f">
+            <div className="h-screen overflow-y-scroll">
+              <Sidebar />
+            </div>
             {children}
         </div>
 
