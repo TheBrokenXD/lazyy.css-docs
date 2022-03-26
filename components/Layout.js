@@ -18,11 +18,13 @@ const Layout = ({ children }) => {
       <>
 
         <Navbar />
-        <div className="display-f">
-            <div className="h-screen overflow-y-scroll">
+        <div className="row">
+            <div className="col-2-xs h-screen overflow-y-scroll">
               <Sidebar />
             </div>
-            {children}
+            <div className="col-10-xs">
+              {children}
+            </div>
         </div>
 
       </>
