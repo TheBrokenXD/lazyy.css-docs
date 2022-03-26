@@ -9,6 +9,9 @@ export default function Home() {
         <title>Lazy CSS - An open source sass-based CSS framework</title>
       </Head>
 
+      {/* don't remove this empty div */}
+      <div className='navbar-toggled navbar firebaseui-card-content hidden'></div>
+
       <div className='mt-4 p-4'>
         <h1 className='custom-text'>Lazy CSS</h1>
         <p className='font-lg fw-md custom-sub-text mt-2'>A Utility-first CSS framework inspired by TailwindCSS with pre-made components.</p>
