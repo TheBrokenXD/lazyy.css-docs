@@ -25,7 +25,7 @@ const optimization = () => {
                 <div className="mt-3">
                     <p className="font-lg fw-md custom-text">Lazy to wait?</p>
                     <p className="custom-sub-text pt-1">Generate every classes beforehand to avoid waiting! In gulpfile, uncomment the second version and comment the first version.</p>
-                    <p className="custom-sub-text pt-1">But don't forget to PurgeCSS before production.</p>
+                    <p className="custom-sub-text pt-1">But don{`'`}t forget to PurgeCSS before production.</p>
                 </div>
 
                 <div className="mt-3">

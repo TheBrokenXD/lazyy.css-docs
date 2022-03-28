@@ -25,19 +25,19 @@ const installation = () => {
                     <p className="font-lg fw-md custom-text">Import locally</p>
                     <div className="display-f align-i-center pt-1 pl-2">
                         <p className="custom-sub-text">1. Download the source files from here: </p>
-                        <a href="https://github.com/TheBrokenXD/lazy-css-raw" target="_blank" className="custom-color pl-1">Github</a>
+                        <a href="https://github.com/TheBrokenXD/lazy-css-raw" target="_blank" rel="noreferrer" className="custom-color pl-1">Github</a>
                         <p className="custom-sub-text pl-1">and import it in your project.</p>
                     </div>
                     <div className="display-f align-i-center pt-1 pl-2">
                         <p className="custom-sub-text">2. Install the dependencies: </p>
-                        <a href="https://www.npmjs.com/package/gulp" target="_blank" className="custom-color pl-1">gulp,</a>
-                        <a href="https://www.npmjs.com/package/gulp-sass" target="_blank" className="custom-color pl-1">gulp-sass,</a>
-                        <a href="https://www.npmjs.com/package/gulp-purgecss" target="_blank" className="custom-color pl-1">gulp-purgecss,</a>
-                        <a href="https://www.npmjs.com/package/sass" target="_blank" className="custom-color pl-1">sass</a>
+                        <a href="https://www.npmjs.com/package/gulp" target="_blank" rel="noreferrer" className="custom-color pl-1">gulp,</a>
+                        <a href="https://www.npmjs.com/package/gulp-sass" target="_blank" rel="noreferrer" className="custom-color pl-1">gulp-sass,</a>
+                        <a href="https://www.npmjs.com/package/gulp-purgecss" target="_blank" rel="noreferrer" className="custom-color pl-1">gulp-purgecss,</a>
+                        <a href="https://www.npmjs.com/package/sass" target="_blank" rel="noreferrer" className="custom-color pl-1">sass</a>
                     </div>
                     <div className="display-f align-i-center pt-1 pl-2">
                         <p className="custom-sub-text">3. Configure Gulpfile. For more info, open </p>
-                        <a href="https://github.com/TheBrokenXD/lazy-css-raw/blob/main/gulpfile.js" target="_blank" className="custom-color pl-1">gulpfile.js</a>
+                        <a href="https://github.com/TheBrokenXD/lazy-css-raw/blob/main/gulpfile.js" target="_blank" rel="noreferrer" className="custom-color pl-1">gulpfile.js</a>
                     </div>
                     <div className="display-f align-i-center pt-1 pl-2">
                         <p className="custom-sub-text">4. Run the following command in the VS Code terminal: </p>
@@ -45,8 +45,8 @@ const installation = () => {
                         <p className="fw-md custom-sub-text pl-1">(or)</p>
                     </div>
                     <div className="display-f align-i-center pt-1 pl-3">
-                        <p className="custom-sub-text">If it doesn't work,</p>
-                        <p className="pl-1">open package.json and add <span className="custom-color pl-1">"gulp": "gulp"</span> in scripts and run: </p>
+                        <p className="custom-sub-text">If it doesn{`'`}t work,</p>
+                        <p className="pl-1">open package.json and add <span className="custom-color pl-1">{`"gulp": "gulp"`}</span> in scripts and run: </p>
                         <p className="custom-color pl-1">npm run gulp</p>
                     </div>
                     <div className="display-f align-i-center pt-1 pl-2">

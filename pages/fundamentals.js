@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const fundamentals = () => {
     return (
@@ -32,7 +33,7 @@ const fundamentals = () => {
                     <p className="font-lg fw-md custom-text">Responsiveness</p>
                     <p className='custom-sub-text pt-1'>Lazy CSS includes features such as flexbox and grid system to make your project responsive from the start.</p>
                     <p className='custom-sub-text pt-1'>Every utility class may be applied conditionally at various breakpoints, making it easy to create complicated responsive interfaces without ever leaving your HTML.</p>
-                    <p className='custom-sub-text pt-1'>For additional information, see the <a href="/responsiveness" className='custom-color'>Responsiveness</a> page.</p>
+                    <p className='custom-sub-text pt-1'>For additional information, see the <Link href="/responsiveness" passHref><p className='custom-color'>Responsiveness</p></Link> page.</p>
                 </div>
 
                 <div className="mt-3">
