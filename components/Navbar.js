@@ -49,6 +49,8 @@ const Navbar = () => {
         <ul>
           <li><Link href="/" passHref><a className="font-xl custom-main" onClick={closeFunc}>Home</a></Link></li>
           <li><Link href="/installation" passHref><a className="font-xl custom-main" onClick={closeFunc}>Installation</a></Link></li>
+          <li><Link href="/optimization" passHref><a className="font-xl custom-main" onClick={closeFunc}>Optimization</a></Link></li>
+          <li><Link href="/contribute" passHref><a className="font-xl custom-main" onClick={closeFunc}>Contribute</a></Link></li>
         </ul>
       </div>
 

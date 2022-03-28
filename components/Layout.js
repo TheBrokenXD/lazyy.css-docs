@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
             <div className="col-2-xs h-screen overflow-y-scroll">
               <Sidebar />
             </div>
-            <div className="col-10-xs">
+            <div className="col-10-xs h-screen overflow-y-scroll">
               {children}
             </div>
         </div>
