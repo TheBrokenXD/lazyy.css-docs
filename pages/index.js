@@ -1,7 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Prism from "prismjs";
+import { useEffect } from 'react';
 
-const index = () => {
+const Index = () => {
+
+    useEffect(() => {
+        Prism.highlightAll();
+    });
+
     return (
         <>
             <Head>
@@ -26,9 +33,12 @@ const index = () => {
                 <div className='mt-4'>
                     <p className='font-lg fw-md custom-text'>Quick start</p>
                     <p className='font-sub-text pt-1'>Looking to quickly add Lazy CSS to your project? To get started, Import our CDN.</p>
-                    <div className="card custom-card-bg max-w-third p-2 mt-1">
-                        <p className='white'>{`<link rel="stylesheet" href="https://lazy-css-raw.vercel.app/index.css" />`}</p>
-                    </div>
+
+                    <pre>
+                        <code className="language-html font-f-code">
+{`<link rel="stylesheet" href="https://lazy-css-raw.vercel.app/index.css" />`}
+                        </code>
+                    </pre>
                 </div>
 
                 <div className='mt-3'>
@@ -53,4 +63,4 @@ const index = () => {
     );
 }
  
-export default index;
+export default Index;
