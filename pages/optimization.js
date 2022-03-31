@@ -2,7 +2,7 @@ import Head from "next/head";
 import Prism from "prismjs";
 import { useEffect } from 'react';
 
-const optimization = () => {
+const Optimization = () => {
     
     useEffect(() => {
         Prism.highlightAll();
@@ -74,4 +74,4 @@ exports.default = series(buildStyles, watchTask)`
     );
 }
  
-export default optimization;
+export default Optimization;

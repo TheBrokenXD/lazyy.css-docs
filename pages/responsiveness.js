@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Prism from "prismjs";
 import { useEffect } from 'react';
 
-const responsiveness = () => {
+const Responsiveness = () => {
 
     useEffect(() => {
         Prism.highlightAll();
@@ -155,7 +155,7 @@ const responsiveness = () => {
 
                 <div className="mt-3">
                     <p className='font-lg fw-md custom-text'>Customize breakpoints</p>
-                    <p className='fw-md custom-sub-text pb-2'>Don't want the default breakpoints? See Customization to learn more about it.</p>
+                    <p className='fw-md custom-sub-text pb-2'>{`Don't`} want the default breakpoints? See Customization to learn more about it.</p>
                 </div>
 
             </div>
@@ -164,4 +164,4 @@ const responsiveness = () => {
     );
 }
  
-export default responsiveness;
+export default Responsiveness;

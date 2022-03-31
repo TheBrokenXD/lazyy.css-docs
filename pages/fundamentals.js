@@ -21,7 +21,7 @@ const fundamentals = () => {
                 <div className="mt-3">
                     <p className="font-lg fw-md custom-text">Keep it organized</p>
                     <p className="custom-sub-text pt-1">Lazy CSS comes up with bunch of utility classes like margin, padding, width, height etc.</p>
-                    <p className="custom-sub-text pt-1">To create bespoke designs without having to write CSS, use utility classes. You don't have to create a CSS file at all.</p>
+                    <p className="custom-sub-text pt-1">To create bespoke designs without having to write CSS, use utility classes. You {`don't`} have to create a CSS file at all.</p>
                 </div>
 
                 <div className="mt-3">
@@ -43,7 +43,7 @@ const fundamentals = () => {
 
                 <div className="mt-3">
                     <p className="font-lg fw-md custom-text">Customization</p>
-                    <p className='custom-sub-text pt-1'>You can customize everything if you don't like the default ones. You can have different breakpoints, theme, and also pixel based class names like width, height, max-width.</p>
+                    <p className='custom-sub-text pt-1'>You can customize everything if you {`don't`} like the default ones. You can have different breakpoints, theme, and also pixel based class names like width, height, max-width.</p>
                 </div>
                 
             </div>

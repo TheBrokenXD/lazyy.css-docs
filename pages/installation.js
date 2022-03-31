@@ -2,7 +2,7 @@ import Head from "next/head";
 import Prism from "prismjs";
 import { useEffect } from 'react';
 
-const installation = () => {
+const Installation = () => {
         
     useEffect(() => {
         Prism.highlightAll();
@@ -75,4 +75,4 @@ const installation = () => {
     );
 }
  
-export default installation;
+export default Installation;
