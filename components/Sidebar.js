@@ -20,7 +20,7 @@ const Sidebar = () => {
                 <h3 className="fw-bold custom-text mt-3">Customization</h3>
                 <ul className="mt-2">
                     <li className="pl-2"><Link href="/responsiveness" passHref><p className={router.pathname == "/responsiveness" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Responsiveness</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/configuration" passHref><p className={router.pathname == "/configuration" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Configuration</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/customization" passHref><p className={router.pathname == "/customization" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Customization</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="/theme" passHref><p className={router.pathname == "/theme" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Theme</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="/colors" passHref><p className={router.pathname == "/colors" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Colors</p></Link></li>
                 </ul>
@@ -38,7 +38,7 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Flexbox & Grid</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#"><p className="fw-md custom-sub-text pointer">Flex Direction</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Direction</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Wrap</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Grow</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Shrink</p></Link></li>
@@ -53,7 +53,7 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Spacing & Sizing</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#"><p className="fw-md custom-sub-text pointer">Padding</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Padding</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Margin</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Width</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Min-Width</p></Link></li>
@@ -65,7 +65,7 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Components</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#"><p className="fw-md custom-sub-text pointer">Avatar</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Avatar</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Buttons</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Cards</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Forms</p></Link></li>

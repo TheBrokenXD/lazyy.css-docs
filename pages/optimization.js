@@ -1,6 +1,13 @@
 import Head from "next/head";
+import Prism from "prismjs";
+import { useEffect } from 'react';
 
 const optimization = () => {
+    
+    useEffect(() => {
+        Prism.highlightAll();
+    });
+    
     return (
         <>
             <Head>
@@ -31,27 +38,33 @@ const optimization = () => {
                 <div className="mt-3">
                     <p className="font-lg fw-md custom-text">Using a framework?</p>
                     <p className="custom-sub-text pt-1">Replace .html in the Content and Watch sections of the gulpfile with your directory, .js/jsx/ts/tsx.</p>
-                    <p className="custom-sub-text pt-1">For example, (colored version soon xd)</p>
+                    <p className="custom-sub-text pt-1">For example,</p>
 
-                    <div className="card custom-variant-1-bg max-w-third p-2 mt-2">
-                        <p className='white'>{`const { src, dest, watch, series } = require('gulp')`}</p>
-                        <p className="white">{`const sass = require('gulp-sass')(require('sass'))`}</p>
-                        <p className="white">{`const purgecss = require('gulp-purgecss')`}</p>
+                    <div className="mt-2">
+                    <pre>
+                        <code className="language-javascript">
+{
+`const { src, dest, watch, series } = require('gulp')
+const sass = require('gulp-sass')(require('sass'))
+const purgecss = require('gulp-purgecss')
 
-                        <p className="white mt-1">{`function buildStyles() {`}</p>
-                        <p className="white ml-1">{`return src('styles/**/*.scss')`}</p>
-                            <p className="white ml-2">{`.pipe(sass({ outputStyle: 'compressed' }))`}</p>
-                            <p className="white ml-2">{`.pipe(purgecss({`}</p>
-                                <p className="white ml-3">{`content: ['pages/**/*.{js,jsx,ts,tsx}','components/**/*.{js,jsx,ts,tsx}']`}</p>
-                            <p className="white ml-2">{`}))`}</p>
-                            <p className="white ml-2">{`.pipe(dest('styles'))`}</p>
-                        <p className="white">{`}`}</p>
+function buildStyles() {
+  return src('styles/**/*.scss')
+    .pipe(sass({ outputStyle: 'compressed' }))
+    .pipe(purgecss({
+      content: ['pages/**/*.{js,jsx,ts,tsx}','components/**/*.{js,jsx,ts,tsx}']
+    }))
+    .pipe(dest('styles'))
+}
 
-                        <p className="white mt-1">{`function watchTask() {`}</p>
-                            <p className="white ml-1">{`watch(['styles/**/*.scss', 'pages/**/*.{js,jsx,ts,tsx}','components/**/*.{js,jsx,ts,tsx}'], buildStyles)`}</p>
-                        <p className="white">{`}`}</p>
+function watchTask() {
+  watch(['styles/**/*.scss', 'pages/**/*.{js,jsx,ts,tsx}','components/**/*.{js,jsx,ts,tsx}'], buildStyles)
+}
 
-                        <p className="white mt-1">{`exports.default = series(buildStyles, watchTask)`}</p>
+exports.default = series(buildStyles, watchTask)`
+}
+                        </code>
+                    </pre>
                     </div>
 
                 </div>

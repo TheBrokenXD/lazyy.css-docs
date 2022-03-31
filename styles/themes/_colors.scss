@@ -7,6 +7,9 @@
     .#{$type}-bg {
         background-color: $hex;
     }
+    .#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $emerald-palette {  //green
@@ -15,6 +18,9 @@
     }
     .emerald-#{$type}-bg {
         background-color: $hex;
+    }
+    .emerald-#{$type}-border-color {
+        border-color: $hex;
     }
 }
 
@@ -25,6 +31,9 @@
     .ruby-#{$type}-bg {
         background-color: $hex;
     }
+    .ruby-#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $royal-palette {  //dark blue
@@ -33,6 +42,9 @@
     }
     .royal-#{$type}-bg {
         background-color: $hex;
+    }
+    .royal-#{$type}-border-color {
+        border-color: $hex;
     }
 }
 
@@ -43,6 +55,9 @@
     .pearl-#{$type}-bg {
         background-color: $hex;
     }
+    .pearl-#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $lemon-palette {  // yellow
@@ -51,6 +66,9 @@
     }
     .lemon-#{$type}-bg {
         background-color: $hex;
+    }
+    .lemon-#{$type}-border-color {
+        border-color: $hex;
     }
 }
 
@@ -61,6 +79,9 @@
     .spring-#{$type}-bg {
         background-color: $hex;
     }
+    .spring-#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $thanos-palette {  //purple
@@ -69,6 +90,9 @@
     }
     .thanos-#{$type}-bg {
         background-color: $hex;
+    }
+    .thanos-#{$type}-border-color {
+        border-color: $hex;
     }
 }
 
@@ -79,6 +103,9 @@
     .coffee-#{$type}-bg {
         background-color: $hex;
     }
+    .coffee-#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $honey-palette {  //orange
@@ -88,6 +115,9 @@
     .honey-#{$type}-bg {
         background-color: $hex;
     }
+    .honey-#{$type}-border-color {
+        border-color: $hex;
+    }
 }
 
 @each $type, $hex in $dracula-palette {  //orange
@@ -96,6 +126,9 @@
     }
     .dracula-#{$type}-bg {
         background-color: $hex;
+    }
+    .dracula-#{$type}-border-color {
+        border-color: $hex;
     }
 }
 
@@ -110,6 +143,9 @@
         .#{$type}-color-bg-light-#{$i} {
             background-color: mix(white, $hex, $i * 10);
         }
+        .#{$type}-color-border-light-#{$i} {
+            border-color: mix(white, $hex, $i * 10);
+        }
     }
 
     // dark variations
@@ -120,6 +156,9 @@
         }
         .#{$type}-color-bg-dark-#{$i} {
             background-color: mix(black, $hex, $i * 10);
+        }
+        .#{$type}-color-border-dark-#{$i} {
+            border-color: mix(black, $hex, $i * 10);
         }
     }
     
@@ -282,6 +321,13 @@ $custom-palette: (
     .custom-#{$type}-bg {
         background-color: $hex;
     }
+    .custom-#{$type}-border-color {
+        border-color: $hex;
+    }
+}
+
+.custom-border-color {
+    border-color: $custom;
 }
 
 .custom-color-hover {
@@ -305,6 +351,9 @@ $custom-palette: (
     .custom-color-bg-light-#{$i} {
         background-color: mix(white, $custom, $i * 10);
     }
+    .custom-color-border-light-#{$i} {
+        border-color: mix(white, $custom, $i * 10);
+    }
 }
 
 // dark variations
@@ -315,5 +364,8 @@ $custom-palette: (
     }
     .custom-color-bg-dark-#{$i} {
         background-color: mix(black, $custom, $i * 10);
+    }
+    .custom-color-border-dark-#{$i} {
+        border-color: mix(black, $custom, $i * 10);
     }
 }

@@ -1,6 +1,13 @@
 import Head from "next/head";
+import Prism from "prismjs";
+import { useEffect } from 'react';
 
 const installation = () => {
+        
+    useEffect(() => {
+        Prism.highlightAll();
+    });
+    
     return (
         <>
             <Head>
@@ -16,9 +23,13 @@ const installation = () => {
                 <div className="mt-4">
                     <p className="font-lg fw-md custom-text">CDN</p>
                     <p className="custom-sub-text pt-1">Import our CDN to your project. This will add Lazy CSS to your project.</p>
-                    <div className="card custom-variant-1-bg max-w-third p-2 mt-2">
-                        <p className="white">{`<link rel="stylesheet" href="https://lazy-css-raw.vercel.app/index.css" />`}</p>
-                    </div>
+                    <pre>
+                        <code className="language-html font-f-code">
+{
+`<link rel="stylesheet" href="https://lazy-css-raw.vercel.app/index.css" />`
+}
+                        </code>
+                    </pre>
                 </div>
 
                 <div className="mt-3">

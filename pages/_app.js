@@ -1,7 +1,9 @@
 import Layout from '../components/Layout'
 // styles
 import '../styles/nprogress.css'
+import '../styles/prism.css'
 import '../styles/index.css'
+
 
 function MyApp({ Component, pageProps }) {
   return (
