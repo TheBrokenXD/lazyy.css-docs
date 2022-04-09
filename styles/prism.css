@@ -26,7 +26,7 @@ pre[class*="language-"] span {
   font-family: 'Source Code Pro', monospace;
 }
 
-pre[class*="language-"]::-moz-selection,
+/* pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
@@ -40,7 +40,7 @@ code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
   text-shadow: none;
   background: #1e293b;
-}
+} */
 
 @media print {
   code[class*="language-"],

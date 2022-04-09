@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="nav shadow-base">
 
       <div className="nav-content">
-        <Link href="/" passHref><p className="nav-brand unselectable">lazycss</p></Link>
+        <Link href="/" passHref><p className="nav-brand unselectable">lazyycss.</p></Link>
         <div className="display-f align-i-center">
           <div className="nav-burger">
             <div className="lottie" onClick={handleClick}>

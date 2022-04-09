@@ -1,18 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Prism from "prismjs";
-import { useEffect } from 'react';
 
 const Index = () => {
-
-    useEffect(() => {
-        Prism.highlightAll();
-    });
-
     return (
         <>
             <Head>
-                <title>Lazy CSS - An open source sass-based CSS framework</title>
+                <title>Lazyy CSS - An open source sass-based CSS framework</title>
             </Head>
 
             {/* don't remove this empty div */}
@@ -20,7 +13,7 @@ const Index = () => {
 
             <div className="mt-4 p-4">
 
-                <h1 className='custom-text'>Lazy CSS</h1>
+                <h1 className='custom-text'>Lazyy CSS</h1>
                 <p className='font-lg fw-md custom-sub-text mt-2'>A Utility-first CSS framework inspired by TailwindCSS with pre-made components.</p>
                 
                 <div className='display-f'>
@@ -32,24 +25,24 @@ const Index = () => {
                 
                 <div className='mt-4'>
                     <p className='font-lg fw-md custom-text'>Quick start</p>
-                    <p className='font-sub-text pt-1'>Looking to quickly add Lazy CSS to your project? To get started, Import our CDN.</p>
+                    <p className='font-sub-text pt-1'>Looking to quickly add lazyy CSS to your project? To get started, Import our CDN.</p>
 
                     <pre>
                         <code className="language-html font-f-code">
-{`<link rel="stylesheet" href="https://lazy-css-raw.vercel.app/index.css" />`}
+{`<link rel="stylesheet" href="https://lazyy-css.vercel.app/dist/css/index.css" />`}
                         </code>
                     </pre>
                 </div>
 
                 <div className='mt-3'>
                     <p className='font-lg fw-md custom-text'>Optimization</p>
-                    <p className='font-sub-text pt-1'>Lazy CSS can be optimized using PurgeCSS. This will remove unused CSS from your project.</p>
+                    <p className='font-sub-text pt-1'>Lazyy CSS can be optimized using PurgeCSS, Autoprefixer and cssnano. This will remove unused CSS from your project.</p>
                     <Link href="/optimization" passHref><button className='custom-btn-outlined br-full mt-1'>Learn More</button></Link>
                 </div>
 
                 <div className='mt-3'>
                     <p className='font-lg fw-md custom-text'>Components</p>
-                    <p className='font-sub-text pt-1'>Lazy CSS has pre-made components for common UI elements. Check out the <Link href="/components" passhref><a className='custom-color'>Components</a></Link> page for more info.</p>
+                    <p className='font-sub-text pt-1'>Lazyy CSS has pre-made components for common UI elements. Check out the <Link href="/components" passhref><a className='custom-color'>components</a></Link> page for more info.</p>
                 </div>
 
                 <div className='mt-3'>

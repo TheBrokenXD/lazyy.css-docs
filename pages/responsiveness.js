@@ -1,26 +1,20 @@
 import Head from 'next/head';
-import Prism from "prismjs";
-import { useEffect } from 'react';
+import Link from 'next/link';
 
 const Responsiveness = () => {
-
-    useEffect(() => {
-        Prism.highlightAll();
-    });
-    
     return (
         <>
             <Head>
-                <title>Responsiveness - Lazy CSS</title>
+                <title>Responsiveness - Lazyy CSS</title>
             </Head>
 
             <div className="mt-4 p-4">
 
                 <h1 className="custom-text">Responsiveness</h1>
-                <p className="fw-md custom-text mt-1">Lazy CSS includes features such as flexbox and grid system to make your project responsive from the start.</p>
+                <p className="fw-md custom-text mt-1">Lazyy CSS includes features such as flexbox and grid system to make your project responsive from the start.</p>
 
                 <div className="mt-4">
-                    <p className='custom-sub-text'>Breakpoints may be used with any utility class in Lazy CSS.</p>
+                    <p className='custom-sub-text'>Breakpoints may be used with any utility class in lazyy CSS.</p>
                     <p className='custom-sub-text pt-1'>Here are the default breakpoints.</p>
                 </div>
 
@@ -58,7 +52,7 @@ const Responsiveness = () => {
 {
 `<div className="row gap-2 justify-center">
 
-<div className="col-12-xs col-6-sm col-3-xl">
+<div className="col-12-xs col-6-md col-3-xl">
     <div className="card black-bg">
         <h1 className="card-title white">Card Title</h1>
         <div className="card-body">
@@ -67,7 +61,7 @@ const Responsiveness = () => {
     </div>
 </div>
 
-<div className="col-12-xs col-6-sm col-3-xl">
+<div className="col-12-xs col-6-md col-3-xl">
     <div className="card black-bg">
         <h1 className="card-title white">Card Title</h1>
         <div className="card-body">
@@ -76,7 +70,7 @@ const Responsiveness = () => {
     </div>
 </div>
 
-<div className="col-12-xs col-6-sm col-3-xl">
+<div className="col-12-xs col-6-md col-3-xl">
     <div className="card black-bg">
         <h1 className="card-title white">Card Title</h1>
         <div className="card-body">
@@ -85,7 +79,7 @@ const Responsiveness = () => {
     </div>
 </div>
 
-<div className="col-12-xs col-6-sm col-3-xl">
+<div className="col-12-xs col-6-md col-3-xl">
     <div className="card black-bg">
         <h1 className="card-title white">Card Title</h1>
         <div className="card-body">
@@ -102,7 +96,7 @@ const Responsiveness = () => {
 
                 <div className="row gap-2 justify-center">
 
-                    <div className="col-12-xs col-6-sm col-3-xl">
+                    <div className="col-12-xs col-6-md col-3-xl">
                         <div className="card black-bg">
                             <h1 className="card-title white">Card Title</h1>
                             <div className="card-body">
@@ -111,7 +105,7 @@ const Responsiveness = () => {
                         </div>
                     </div>
 
-                    <div className="col-12-xs col-6-sm col-3-xl">
+                    <div className="col-12-xs col-6-md col-3-xl">
                         <div className="card black-bg">
                             <h1 className="card-title white">Card Title</h1>
                             <div className="card-body">
@@ -120,7 +114,7 @@ const Responsiveness = () => {
                         </div>
                     </div>
 
-                    <div className="col-12-xs col-6-sm col-3-xl">
+                    <div className="col-12-xs col-6-md col-3-xl">
                         <div className="card black-bg">
                             <h1 className="card-title white">Card Title</h1>
                             <div className="card-body">
@@ -129,7 +123,7 @@ const Responsiveness = () => {
                         </div>
                     </div>
 
-                    <div className="col-12-xs col-6-sm col-3-xl">
+                    <div className="col-12-xs col-6-md col-3-xl">
                         <div className="card black-bg">
                             <h1 className="card-title white">Card Title</h1>
                             <div className="card-body">
@@ -155,7 +149,7 @@ const Responsiveness = () => {
 
                 <div className="mt-3">
                     <p className='font-lg fw-md custom-text'>Customize breakpoints</p>
-                    <p className='fw-md custom-sub-text pb-2'>{`Don't`} want the default breakpoints? See Customization to learn more about it.</p>
+                    <p className='fw-md custom-sub-text pt-1 display-f'>{`Don't`} want the default breakpoints? See <Link href="/customization"><p className='custom-color pl-1 pr-1 pointer'> Customization </p></Link>to learn more about it.</p>
                 </div>
 
             </div>
