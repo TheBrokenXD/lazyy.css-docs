@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "lazyy": "sass  --no-source-map styles/index.scss:styles/index.css",
     "watch:lazyy": "sass  --no-source-map styles/index.scss:styles/index.css --watch",
-    "purge:lazyy": "purgecss --css styles/index.css --content \"pages/**/*.js\" --output styles/",
-    "build:lazyy": "npm run purge:lazyy && postcss styles/index.css -u autoprefixer cssnano -r --no-map"
+    "purge:lazyy": "purgecss --css styles/index.css --content \"./**/*.html\" --output styles/",
+    "build:lazyy": "npm run purge:lazyy && postcss styles/index.css -u autoprefixer cssnano -r --no-map",
+    "dev": "next dev",
+    "build": "next build && npm run build:lazyy",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
