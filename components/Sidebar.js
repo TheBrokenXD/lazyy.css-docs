@@ -11,102 +11,101 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text">Getting Started</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="/installation" passHref><p className={router.pathname == "/installation" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Installation</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/optimization" passHref><p className={router.pathname == "/optimization" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Optimization</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/fundamentals" passHref><p className={router.pathname == "/fundamentals" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Fundamentals</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/contribute" passHref><p className={router.pathname == "/contribute" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Contribute</p></Link></li>
+                    <li className="pl-2"><Link href="/installation" passHref><p className={router.pathname == "/installation" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Installation</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/optimization" passHref><p className={router.pathname == "/optimization" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Optimization</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/fundamentals" passHref><p className={router.pathname == "/fundamentals" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Fundamentals</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/contribute" passHref><p className={router.pathname == "/contribute" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Contribute</p></Link></li>
                 </ul>
 
-                <h3 className="fw-bold custom-text mt-3">Customization</h3>
+                <h3 className="fw-bold custom-text mt-3">Fundamentals</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="/responsiveness" passHref><p className={router.pathname == "/responsiveness" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Responsiveness</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/customization" passHref><p className={router.pathname == "/customization" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Customization</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/theme" passHref><p className={router.pathname == "/theme" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Theme</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/colors" passHref><p className={router.pathname == "/colors" ? "fw-md custom-color pointer" : "fw-md custom-sub-text pointer"}>Colors</p></Link></li>
+                    <li className="pl-2"><Link href="/responsiveness" passHref><p className={router.pathname == "/responsiveness" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Responsiveness</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/customization" passHref><p className={router.pathname == "/customization" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Customization</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/theme" passHref><p className={router.pathname == "/theme" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Theme</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Layout</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Box Sizing</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Container</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Display</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Floats</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Overflow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Position</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Z-Index</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Box Sizing</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Container</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Display</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Floats</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Overflow</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Position</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Z-Index</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Flexbox & Grid</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Direction</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Wrap</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Grow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Flex Shrink</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Gap</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Justify Content</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Justify Items</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Justify Self</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Align Content</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Align Items</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Align Self</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Direction</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Wrap</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Grow</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Shrink</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Gap</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Content</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Items</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Self</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Content</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Items</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Self</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Spacing & Sizing</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Padding</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Margin</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Min-Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Max-Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Min-Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Max-Height</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Padding</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Margin</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Min-Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Max-Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Height</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Min-Height</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Max-Height</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Components</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Avatar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Buttons</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Cards</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Forms</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">List</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Modals</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Navbar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Tables</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Toasts</p></Link></li>
+                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Avatar</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Buttons</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Cards</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Forms</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">List</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Modals</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Navbar</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Tables</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Toasts</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Typography</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Font Family</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Font Size</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Font Style</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Font Weight</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Letter Spacing</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Line Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Text Align</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Text Color</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Text Decoration</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Text Transform</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Family</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Size</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Style</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Weight</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Letter Spacing</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Line Height</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Align</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Color</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Decoration</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Transform</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Borders</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Border Right</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Border Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Border Style</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Right</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Style</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Effects</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Box Shadow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Opacity</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Box Shadow</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Opacity</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Interaction</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Cursor</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer">Scroll Behaviour</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Cursor</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Scroll Behaviour</p></Link></li>
                 </ul>
 
             </div>

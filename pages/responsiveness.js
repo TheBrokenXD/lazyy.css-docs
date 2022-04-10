@@ -50,40 +50,40 @@ const Responsiveness = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-`<div className="row gap-2 justify-center">
+`<div class="row gap-2 justify-center">
 
-<div className="col-12-xs col-6-md col-3-xl">
-    <div className="card black-bg">
-        <h1 className="card-title white">Card Title</h1>
-        <div className="card-body">
-            <p className="emerald-text">This is the card body</p>
+<div class="col-12-xs col-6-md col-3-xl">
+    <div class="card black-bg">
+        <h1 class="card-title white">Card Title</h1>
+        <div class="card-body">
+            <p class="emerald-text">This is the card body</p>
         </div>
     </div>
 </div>
 
-<div className="col-12-xs col-6-md col-3-xl">
-    <div className="card black-bg">
-        <h1 className="card-title white">Card Title</h1>
-        <div className="card-body">
-            <p className="emerald-text">This is the card body</p>
+<div class="col-12-xs col-6-md col-3-xl">
+    <div class="card black-bg">
+        <h1 class="card-title white">Card Title</h1>
+        <div class="card-body">
+            <p class="emerald-text">This is the card body</p>
         </div>
     </div>
 </div>
 
-<div className="col-12-xs col-6-md col-3-xl">
-    <div className="card black-bg">
-        <h1 className="card-title white">Card Title</h1>
-        <div className="card-body">
-            <p className="emerald-text">This is the card body</p>
+<div class="col-12-xs col-6-md col-3-xl">
+    <div class="card black-bg">
+        <h1 class="card-title white">Card Title</h1>
+        <div class="card-body">
+            <p class="emerald-text">This is the card body</p>
         </div>
     </div>
 </div>
 
-<div className="col-12-xs col-6-md col-3-xl">
-    <div className="card black-bg">
-        <h1 className="card-title white">Card Title</h1>
-        <div className="card-body">
-            <p className="emerald-text">This is the card body</p>
+<div class="col-12-xs col-6-md col-3-xl">
+    <div class="card black-bg">
+        <h1 class="card-title white">Card Title</h1>
+        <div class="card-body">
+            <p class="emerald-text">This is the card body</p>
         </div>
     </div>
 </div>
@@ -139,7 +139,7 @@ const Responsiveness = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-`<p className="xs-font-md md-font-lg lg-font-xl">
+`<p class="xs-font-md md-font-lg lg-font-xl">
     This is a paragraph with font size of medium at minimum width of 0, large at 768px, extra large at 1024px.
 </p>`
 }

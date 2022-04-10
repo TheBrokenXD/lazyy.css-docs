@@ -63,6 +63,7 @@ $ruby-palette: (
     "error": #e22134,
     "disabled": #535353,
     "active": #f1a84f,
+    "card": #FFFFFF,
     "hover": #000000,
     "gray": #d1d6e2,
     //additional
@@ -96,6 +97,7 @@ $pearl-palette: (
     "error": #BF616A,
     "disabled": #434C5E,
     "active": #93AECA,
+    "card": #FFFFFF,
     "hover": #9CB5CE,
     "gray": #aeb5c4,
     //additional
@@ -108,7 +110,7 @@ $lemon-palette: (
     "main": #0a0e14,
     "on-main": $lemon,
     "text": #F0F0F0,
-    "sub-text": #F0F0F0,
+    "sub-text": #DFDFDF,
     "error": #e22134,
     "disabled": #535353,
     "active": #727d2b,
@@ -129,6 +131,7 @@ $spring-palette: (
     "error": #d79921,
     "disabled": #bdae93,
     "active": #cc241d,
+    "card": #FFFFFF,
     "hover": #202020,
     "gray": #d5c4a1,
     //additional
@@ -157,11 +160,12 @@ $coffee-palette: (
     "color": $coffee,
     "main": #461217,
     "on-main": #e7a52d,
-    "text": #ebdbb2,
+    "text": #161925,
     "sub-text": #ebdbb2,
     "error": #e22134,
     "disabled": #535353,
     "active": #e7a52d,
+    "card": #FFFFFF,
     "hover": #3a2645,
     "gray": #909090,
     //additional

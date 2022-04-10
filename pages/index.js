@@ -48,7 +48,7 @@ const Index = () => {
                 <div className='mt-3'>
                     <p className='font-lg fw-md custom-text'>Responsiveness</p>
                     <p className='font-sub-text pt-1'>Developing adaptable user interfaces via the usage of responsive utility variations. Build a mobile-first site without using bunch of media queries.</p>
-                    <Link href="/responsive" passHref><button className='custom-btn-outlined br-full mt-1'>Learn More</button></Link>
+                    <Link href="/responsiveness" passHref><button className='custom-btn-outlined br-full mt-1'>Learn More</button></Link>
                 </div>
 
             </div>
