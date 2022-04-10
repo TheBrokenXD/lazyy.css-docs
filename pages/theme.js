@@ -12,7 +12,7 @@ const Themes = () => {
             <div className="mt-4 p-4">
 
                 <h1 className="custom-text">Theme</h1>
-                <p className="fw-md custom-sub-text mt-1">Lazyy CSS comes with a selection of professionally-designed themes if you don't have a certain brand already in mind.</p>
+                <p className="fw-md custom-sub-text mt-1">Lazyy CSS comes with a selection of professionally-designed themes if you {`don't`} have a certain brand already in mind.</p>
 
                 <div className="mt-4">
                     <h2 className="custom-text">Palettes</h2>
@@ -492,7 +492,7 @@ const Themes = () => {
 
                 <div className="mt-4">
                     <h2 className="custom-text">Customization</h2>
-                    <p className='custom-sub-text pt-1'>Check <Link href="/customization"><span className='custom-color pointer'>customization</span></Link> to create a custom palette. {`Here's`} our custom palette.</p>
+                    <p className='custom-sub-text pt-1'>Check <Link href="/customization" passHref><span className='custom-color pointer'>customization</span></Link> to create a custom palette. {`Here's`} our custom palette.</p>
                     <div className="row justify-center gap-1 mt-2">
                         <div className="col-2-md col-6-sm col-12-xs">
                             <div className="card custom-color-bg p-3"><p className='fw-md custom-text'>Color</p></div>

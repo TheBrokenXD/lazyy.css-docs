@@ -149,7 +149,7 @@ const Responsiveness = () => {
 
                 <div className="mt-3">
                     <p className='font-lg fw-md custom-text'>Customize breakpoints</p>
-                    <p className='fw-md custom-sub-text pt-1 display-f'>{`Don't`} want the default breakpoints? See <Link href="/customization"><p className='custom-color pl-1 pr-1 pointer'> Customization </p></Link>to learn more about it.</p>
+                    <p className='fw-md custom-sub-text pt-1 display-f'>{`Don't`} want the default breakpoints? See <Link href="/customization" passHref><p className='custom-color pl-1 pr-1 pointer'> Customization </p></Link>to learn more about it.</p>
                 </div>
 
             </div>

@@ -16,7 +16,7 @@ const customization = () => {
 
                 <div className="mt-4">
                     <h2 className="custom-text">Customizing your theme</h2>
-                    <p className='custom-sub-text pt-1'>Lazyy CSS comes with a few pre-installed <Link href="/theme"><span className='custom-color pointer'>themes</span></Link>. Follow these instructions to create your own theme.</p>
+                    <p className='custom-sub-text pt-1'>Lazyy CSS comes with a few pre-installed <Link href="/theme" passHref><span className='custom-color pointer'>themes</span></Link>. Follow these instructions to create your own theme.</p>
                     <p className='custom-sub-text pt-2'>1. Navigate to your index.scss file.</p>
                     <p className='custom-sub-text pt-1'>2. Add the following code:</p>
                     <pre>
