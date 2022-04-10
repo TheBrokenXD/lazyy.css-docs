@@ -14,7 +14,7 @@ const Optimization = () => {
 
                 <div className="mt-4">
                     <p className="font-lg fw-md custom-text">Scripts</p>
-                    <div className="pl-2">
+                    <div>
                         <p className="custom-sub-text pt-1">1. Install the npm package as described on the Installation page. Create an index.scss file and import the index.scss file from node modules. </p>
                         <pre>
                             <code className="language-css font-f-code">

@@ -32,13 +32,13 @@ const Installation = () => {
 }
                         </code>
                     </pre>
-                    <p className="custom-sub-text pt-1">Generally, browsers are incapable of parsing sass files. It must be converted to CSS. You may do this by using the <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" className="custom-color" target="_blank" rel="noreferrer"g>watch-sass</a> plugin in VS Code. Still, the preferable method is to use scripts. Add these scripts to your <span className="custom-sub-text fw-md">package.json</span> file.</p>
+                    <p className="custom-sub-text pt-1">Generally, browsers are incapable of parsing sass files. It must be converted to CSS. You may do this by using the <a href="https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass" className="custom-color" target="_blank" rel="noreferrer">watch-sass</a> plugin in VS Code. Still, the preferable method is to use scripts. Add these scripts to your <span className="custom-sub-text fw-md">package.json</span> file.</p>
                     <pre>
                         <code className="language-json font-f-code">
 {
 `"lazyy": "sass  --no-source-map styles/index.scss:styles/index.css",
 "watch:lazyy": "sass  --no-source-map styles/index.scss:styles/index.css --watch",
-"purge:lazyy": "purgecss --css styles/index.css --content \"./**/*.html\" --output styles/",
+"purge:lazyy": "purgecss --css styles/index.css --content \"*.html\" --output styles/",
 "build:lazyy": "npm run purge:lazyy && postcss styles/index.css -u autoprefixer cssnano -r --no-map"`
 }
                         </code>
