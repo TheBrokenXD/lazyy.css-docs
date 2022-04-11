@@ -20,27 +20,31 @@ const Responsiveness = () => {
 
                 <div className="mt-3">
                     <div className="row">
-                        <div className="col-4-xs">
+                        <div className="col-6-xs">
                             <p className='fw-bold custom-text'>Breakpoint</p>
-                            <div className='border-t-1 border-b-0 border-l-0 border-r-0 border-solid custom-text-border-color mt-1'></div>
-                            <p className='custom-sub-text pt-2'>`XS`</p>
-                            <p className='custom-sub-text pt-2'>`SM`</p>
-                            <p className='custom-sub-text pt-2'>`MD`</p>
-                            <p className='custom-sub-text pt-2'>`LG`</p>
-                            <p className='custom-sub-text pt-2'>`XL`</p>
-                            <p className='custom-sub-text pt-2'>`XXL`</p>
-                            <p className='custom-sub-text pt-2'>`XXXL`</p>
                         </div>
-                        <div className="col-2-xs">
+                        <div className="col-6-xs">
                         <p className='fw-bold custom-text'>Min Width</p>
-                            <div className='border-t-1 border-b-0 border-l-0 border-r-0 border-solid custom-text-border-color mt-1'></div>
-                            <p className='custom-sub-text pt-2'>0</p>
-                            <p className='custom-sub-text pt-2'>320px</p>
-                            <p className='custom-sub-text pt-2'>768px</p>
-                            <p className='custom-sub-text pt-2'>1024px</p>
-                            <p className='custom-sub-text pt-2'>1440px</p>
-                            <p className='custom-sub-text pt-2'>1536px</p>
-                            <p className='custom-sub-text pt-2'>1920px</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-6-xs">
+                            <p className='custom-color pt-2'>`XS`</p>
+                            <p className='custom-color pt-2'>`SM`</p>
+                            <p className='custom-color pt-2'>`MD`</p>
+                            <p className='custom-color pt-2'>`LG`</p>
+                            <p className='custom-color pt-2'>`XL`</p>
+                            <p className='custom-color pt-2'>`XXL`</p>
+                            <p className='custom-color pt-2'>`XXXL`</p>
+                        </div>
+                        <div className="col-6-xs">
+                            <p className='custom-variant-2 pt-2'>0</p>
+                            <p className='custom-variant-2 pt-2'>320px</p>
+                            <p className='custom-variant-2 pt-2'>768px</p>
+                            <p className='custom-variant-2 pt-2'>1024px</p>
+                            <p className='custom-variant-2 pt-2'>1440px</p>
+                            <p className='custom-variant-2 pt-2'>1536px</p>
+                            <p className='custom-variant-2 pt-2'>1920px</p>
                         </div>
                     </div>
                 </div>

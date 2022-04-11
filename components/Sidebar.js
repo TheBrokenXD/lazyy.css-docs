@@ -26,13 +26,13 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Layout</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Box Sizing</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Container</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Display</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Floats</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Overflow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Position</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Z-Index</p></Link></li>
+                    <li className="pl-2"><Link href="/box-sizing" passHref><p className={router.pathname == "/box-sizing" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Box Sizing</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/container" passHref><p className={router.pathname == "/container" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Container</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/display" passHref><p className={router.pathname == "/display" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Display</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/floats" passHref><p className={router.pathname == "/floats" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Floats</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/overflow" passHref><p className={router.pathname == "/overflow" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Overflow</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/position" passHref><p className={router.pathname == "/position" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Position</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/z-index" passHref><p className={router.pathname == "/z-index" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Z-Index</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Flexbox & Grid</h3>

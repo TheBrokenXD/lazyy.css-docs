@@ -10,7 +10,7 @@ $utilities: (
   "box-sizing": (
     "prefix": "box",
     "values": (
-      "box": border-box,
+      "border": border-box,
       "content": content-box
     )
   ),
@@ -21,8 +21,7 @@ $utilities: (
       "b": block,
       "f": flex,
       "i": inline,
-      "i-b": inline-block,
-      "none": none
+      "i-b": inline-block
     )
   ),
   "float": (

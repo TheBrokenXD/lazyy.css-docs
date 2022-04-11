@@ -6,7 +6,7 @@ const Themes = () => {
     return (
         <>
             <Head>
-                <title>Customization - Lazyy CSS</title>
+                <title>Theme - Lazyy CSS</title>
             </Head>
 
             <div className="mt-4 p-4">

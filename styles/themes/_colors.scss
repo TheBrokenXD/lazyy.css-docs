@@ -312,6 +312,7 @@ $custom-palette: (
     "misc": #bfbfbf,
     // own colors
     "variant-1": #2D3748,
+    "variant-2": #5856d6,
 );
 
 @each $type, $hex in $custom-palette {
