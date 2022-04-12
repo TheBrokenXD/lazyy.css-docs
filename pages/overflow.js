@@ -56,7 +56,7 @@ const overflow = () => {
 
                 <div className='mt-3'>
                     <h2 className="custom-text">Overflow Visible</h2>
-                    <p className='custom-sub-text pt-1'>Using the overflow-visible attribute, you can see when an element has gone beyond its allowed maximum size. The scrollbar {`isn't`} necessary if you want to display an {`element's`} overflow.</p>
+                    <p className='custom-sub-text pt-1'>Using the overflow-visible attribute, you can see when an element has gone beyond its allowed maximum size. The scrollbar {`isn't`} necessary if you want to display an {`element's`} overflow.</p> 
                     
                 </div>
             </div>
