@@ -9,8 +9,9 @@ const Responsiveness = () => {
             </Head>
 
             <div className="mt-4 p-4">
-
-                <h1 className="custom-text">Responsiveness</h1>
+                
+                <p className="custom-color">Fundamentals</p>
+                <h1 className="custom-text mt-1">Responsiveness</h1>
                 <p className="fw-md custom-text mt-1">Lazyy CSS includes features such as flexbox and grid system to make your project responsive from the start.</p>
 
                 <div className="mt-4">

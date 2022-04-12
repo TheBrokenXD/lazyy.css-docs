@@ -8,7 +8,8 @@ const boxSizing = () => {
             </Head>
 
             <div className="mt-4 p-4">
-                <h1 className="custom-text">Box Sizing</h1>
+                <p className="custom-color">Layout</p>
+                <h1 className="custom-text mt-1">Box Sizing</h1>
                 <p className='fw-md custom-sub-text mt-1'>Controlling the {`browser's`} calculation of an {`element's`} overall size.</p>
 
                 <div className='mt-4'>

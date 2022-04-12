@@ -1,71 +1,59 @@
 // import local fonts
 
+// google sans display
 @font-face {
     font-family: "Google Sans Display";
-    src: url("fonts/GoogleSansDisplayRegular.woff2") format("woff2");
+    src: url("/fonts/GoogleSansDisplayRegular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Google Sans Display";
-    src: url("fonts/GoogleSansDisplayMedium.woff2") format("woff2");
+    src: url("/fonts/GoogleSansDisplayMedium.woff2") format("woff2");
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Google Sans Display";
-    src: url("fonts/GoogleSansDisplayBold.woff2") format("woff2");
+    src: url("/fonts/GoogleSansDisplayBold.woff2") format("woff2");
     font-style: normal;
     font-weight: 700;
 }
 
+// spotify-circular
 @font-face {
-    font-family: "Roboto";
-    src: url("fonts/RobotoRegular.woff2") format("woff2");
+    font-family: "spotify-circular";
+    src: url("/fonts/SpotifyCircular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("fonts/RobotoMedium.woff2") format("woff2");
+    font-family: "spotify-circular";
+    src: url("/fonts/SpotifyCircularBlack.woff2") format("woff2");
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("fonts/RobotoBold.woff2") format("woff2");
+    font-family: "spotify-circular";
+    src: url("/fonts/SpotifyCircularBold.woff2") format("woff2");
     font-style: normal;
     font-weight: 700;
 }
 
-@font-face {
-    font-family: spotify-circular;
-    src: url("fonts/SpotifyCircular.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 400;
-}
+// roboto
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
-@font-face {
-    font-family: spotify-circular;
-    src: url("fonts/SpotifyCircularBlack.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 500;
-}
+// helvetica neue
+@import url("https://fonts.googleapis.com/css?family=Helvetica+Neue:300,400,500,700&display=swap");
 
-@font-face {
-    font-family: spotify-circular;
-    src: url("fonts/SpotifyCircularBold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 700;
-}
-
+// source code pro
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-$base-font: "Google Sans Display","Roboto",spotify-circular,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+$base-font: "Google Sans Display", "Roboto", "spotify-circular", "Helvetica Neue",helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
 $info-font: "Roboto",sans-serif;
 $code-font: 'Source Code Pro', monospace;
 
