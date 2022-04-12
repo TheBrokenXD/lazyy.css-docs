@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 const boxSizing = () => {
     return (
@@ -76,6 +77,19 @@ const boxSizing = () => {
 }
                         </code>
                     </pre>
+                </div>
+
+                <div className='mt-3'>
+                    <h2 className="custom-text">Breakpoints</h2>
+                    <p className='custom-sub-text mt-1'>For each breakpoint, you can modify utility classes. For example,</p>
+                    <pre>
+                        <code className="language-html font-f-code">
+{
+`<div class='md-box-content xs-box-border w-30-px h-30-px'></div>`
+}
+                        </code>
+                    </pre>
+                    <p className='custom-sub-text mt-1'>Will apply box-content only above medium screen sizes. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
             

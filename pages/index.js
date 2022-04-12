@@ -42,7 +42,7 @@ const Index = () => {
 
                 <div className='mt-3'>
                     <p className='font-lg fw-md custom-text'>Components</p>
-                    <p className='font-sub-text pt-1'>Lazyy CSS has pre-made components for common UI elements. Check out the <Link href="/components" passhref><a className='custom-color'>components</a></Link> page for more info.</p>
+                    <p className='font-sub-text pt-1'>Lazyy CSS has pre-made components for common UI elements. Hundreds of beautiful and responsive UI components, premade and ready to use for your next project.</p>
                 </div>
 
                 <div className='mt-3'>

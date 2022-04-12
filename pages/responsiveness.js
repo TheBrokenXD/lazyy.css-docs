@@ -140,7 +140,8 @@ const Responsiveness = () => {
                 </div>
 
                 <div className="mt-3">
-                    <p className='fw-md custom-sub-text pb-2'>Breakpoints can also be used with utility classes like font size, padding, margin etc. For example,</p>
+                    <h2 className="custom-text">Utility Classes</h2>
+                    <p className='fw-md custom-sub-text pt-1'>Breakpoints can also be used with utility classes like font size, padding, margin etc. For example,</p>
                     <pre>
                         <code className="language-html font-f-code">
 {

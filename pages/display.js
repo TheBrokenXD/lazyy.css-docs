@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 const display = () => {
     return (
@@ -114,6 +115,19 @@ const display = () => {
                             </code>
                         </pre>
                     </div>
+                </div>
+
+                <div className='mt-3'>
+                    <h2 className="custom-text">Breakpoints</h2>
+                    <p className='custom-sub-text mt-1'>For each breakpoint, you can modify utility classes. For example,</p>
+                    <pre>
+                        <code className="language-html font-f-code">
+{
+`<div class='lg-display-f xs-display-n'></div>`
+}
+                        </code>
+                    </pre>
+                    <p className='custom-sub-text mt-1'>Will display as a block-level flex container on large screens and hidden on small screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>
