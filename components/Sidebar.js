@@ -37,10 +37,8 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Flexbox & Grid</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Direction</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Wrap</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Grow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Flex Shrink</p></Link></li>
+                    <li className="pl-2"><Link href="/flex-direction" passHref><p className={router.pathname == "/flex-direction" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Flex Direction</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/flex-wrap" passHref><p className={router.pathname == "/flex-wrap" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Flex Wrap</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Gap</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Content</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Items</p></Link></li>

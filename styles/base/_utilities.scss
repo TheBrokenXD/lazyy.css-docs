@@ -86,29 +86,31 @@ $utilities: (
   // flexbox and grid
 
   "flex-direction": (
-    "prefix": "flex-dir",
+    "prefix": "flex",
     "values": (
       "row": row,
       "column": column,
+      "row-rev": row-reverse,
+      "column-rev": column-reverse
     )
   ),
   "flex-wrap": (
-    "prefix": "flex-wrap",
+    "prefix": "flex",
     "values": (
       "nowrap": nowrap,
       "wrap": wrap,
-      "wrap-reverse": wrap-reverse
+      "wrap-rev": wrap-reverse
     )
   ),
   "flex-grow": (
-    "prefix": "flex-grow",
+    "prefix": "flex",
     "values": (
       "grow": 1,
       "grow-0": 0,
     )
   ),
   "flex-shrink": (
-    "prefix": "flex-shrink",
+    "prefix": "flex",
     "values": (
       "shrink": 1,
       "shrink-0": 0,
