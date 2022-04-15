@@ -39,13 +39,9 @@ const Sidebar = () => {
                 <ul className="mt-2">
                     <li className="pl-2"><Link href="/flex-direction" passHref><p className={router.pathname == "/flex-direction" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Flex Direction</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="/flex-wrap" passHref><p className={router.pathname == "/flex-wrap" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Flex Wrap</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Gap</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Content</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Items</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Justify Self</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Content</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Items</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Align Self</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/justify-content" passHref><p className={router.pathname == "/justify-content" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Justify Content</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/align-items" passHref><p className={router.pathname == "/align-items" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Align Items</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/grid" passHref><p className={router.pathname == "/grid" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Grid</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Spacing & Sizing</h3>
