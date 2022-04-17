@@ -108,7 +108,7 @@ const flexWrap = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will wrap the elements on small screens and {`won't`} wrap them on medium-sized screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will wrap the elements on small screens and {`won't`} wrap them on medium-sized screens. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

@@ -40,7 +40,7 @@ const floats = () => {
                 <div className='mt-3'>
                     <h2 className="custom-text">Float right</h2>
                     <div className='card custom-sub-text-bg mt-1 p-2'>
-                        <div className='float-right pl-2'><Image src="/demo.png" width={80} height={80}/></div>
+                        <div className='float-right pl-2'><Image src="/demo.png" width={80} height={80} alt="img"/></div>
                         <p className='custom-gray fw-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum amet et autem odit consectetur error facilis quo aspernatur, ut obcaecati debitis ab deleniti, animi adipisci enim vero fugit quibusdam? Nostrum sapiente consectetur qui inventore! Soluta, autem! Ducimus odio tempora excepturi corrupti, commodi dolores dolorem inventore eum. Earum incidunt culpa natus officiis sit dolor, consequuntur accusamus nihil libero cupiditate delectus?</p>
                     </div>
                     <pre>
@@ -58,7 +58,7 @@ const floats = () => {
                 <div className='mt-3'>
                     <h2 className="custom-text">Float left</h2>
                     <div className='card custom-sub-text-bg mt-1 p-2'>
-                        <div className='float-left pr-2'><Image src="/demo.png" width={80} height={80}/></div>
+                        <div className='float-left pr-2'><Image src="/demo.png" width={80} height={80} alt="img"/></div>
                         <p className='custom-gray fw-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum amet et autem odit consectetur error facilis quo aspernatur, ut obcaecati debitis ab deleniti, animi adipisci enim vero fugit quibusdam? Nostrum sapiente consectetur qui inventore! Soluta, autem! Ducimus odio tempora excepturi corrupti, commodi dolores dolorem inventore eum. Earum incidunt culpa natus officiis sit dolor, consequuntur accusamus nihil libero cupiditate delectus?</p>
                     </div>
                     <pre>
@@ -76,7 +76,7 @@ const floats = () => {
                 <div className='mt-3'>
                     <h2 className="custom-text">Float none</h2>
                     <div className='card custom-sub-text-bg mt-1 p-2'>
-                        <div className='float-none pb-2'><Image src="/demo.png" width={80} height={80}/></div>
+                        <div className='float-none pb-2'><Image src="/demo.png" width={80} height={80} alt="img"/></div>
                         <p className='custom-gray fw-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum amet et autem odit consectetur error facilis quo aspernatur, ut obcaecati debitis ab deleniti, animi adipisci enim vero fugit quibusdam? Nostrum sapiente consectetur qui inventore! Soluta, autem! Ducimus odio tempora excepturi corrupti, commodi dolores dolorem inventore eum. Earum incidunt culpa natus officiis sit dolor, consequuntur accusamus nihil libero cupiditate delectus?</p>
                     </div>
                     <pre>
@@ -101,7 +101,7 @@ const floats = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will float right on the xs breakpoint and float none on the xl breakpoint. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will float right on the xs breakpoint and float none on the xl breakpoint. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

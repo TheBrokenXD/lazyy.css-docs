@@ -127,7 +127,7 @@ const display = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will display as a block-level flex container on large screens and hidden on small screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will display as a block-level flex container on large screens and hidden on small screens. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

@@ -129,7 +129,7 @@ const flexDirection = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will display the elements in a vertical way on larger screens and reversed on small screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will display the elements in a vertical way on larger screens and reversed on small screens. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

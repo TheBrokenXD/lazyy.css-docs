@@ -89,7 +89,7 @@ const boxSizing = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will apply box-content only above medium screen sizes. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will apply box-content only above medium screen sizes. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
             

@@ -184,7 +184,7 @@ const justifyContent = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>Will justify the elements to the center by default and space around above large sized screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>Will justify the elements to the center by default and space around above large sized screens. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

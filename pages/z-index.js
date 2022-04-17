@@ -88,7 +88,7 @@ const zIndex = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>will apply z-0 as the default and z-2 for larger screens. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>will apply z-0 as the default and z-2 for larger screens. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

@@ -106,7 +106,7 @@ const alignItems = () => {
 }
                         </code>
                     </pre>
-                    <p className='custom-sub-text mt-1'>On large screens, the items will be aligned at the top, while on small screens, they will be aligned in the center. To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>On large screens, the items will be aligned at the top, while on small screens, they will be aligned in the center. To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>

@@ -125,7 +125,7 @@ const widthHeight = () => {
                 <div className='mt-3'>
                     <h2 className="custom-text">Breakpoints</h2>
                     <p className='custom-sub-text mt-1'>For each breakpoint, you can modify utility classes.</p>
-                    <p className='custom-sub-text mt-1'>To learn more about breakpoints, check <Link href="/responsiveness"><span className='custom-color pointer'>responsiveness</span></Link>.</p>
+                    <p className='custom-sub-text mt-1'>To learn more about breakpoints, check <Link href="/responsiveness" passHref><span className='custom-color pointer'>responsiveness</span></Link>.</p>
                 </div>
             </div>
         </>
