@@ -9,11 +9,11 @@ const grid = () => {
             </Head>
 
             <div className="mt-4 p-4">
-                <h1 className="custom-text mt-1">Grid</h1>
+                <h1 className="custom-text">Grid</h1>
                 <p className='fw-md custom-sub-text mt-1'>Grid is a powerful system that makes your site responsive from the start.</p>
 
                 <div className="mt-4">
-                    <div className="card custom-sub-text-bg p-2">
+                    <div className="card custom-sub-text-bg p-3">
                         <div className='row gap-1'>
                             <div className="col-12-xs">
                                 <div className='card custom-color-bg p-2 display-f justify-center'><p className='custom-text'>12</p></div>

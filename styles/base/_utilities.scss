@@ -328,7 +328,12 @@ $utilities: (
     "values": (
       "half": 50%,
       "full": 100%,
-      "screen": 100vw
+      "screen": 100vw,
+      "1": $base-width,
+      "2": $base-width * 2,
+      "3": $base-width * 4,
+      "4": $base-width * 8,
+      "5": $base-width * 16,
     )
   ),
   "min-width": (
@@ -372,7 +377,12 @@ $utilities: (
     "values": (
       "half": 50%,
       "full": 100%,
-      "screen": 100vh
+      "screen": 100vh,
+      "1": $base-height,
+      "2": $base-height * 2,
+      "3": $base-height * 4,
+      "4": $base-height * 8,
+      "5": $base-height * 16,
     )
   ),
   "min-height": (
@@ -726,6 +736,38 @@ $utilities: (
   }
 }
 
+// generate vertical and horizontal spacing
+$base-values: (
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "3": 4,
+  "4": 6,
+  "5": 8,
+  "6": 10,
+  "7": 12,
+  "8": 14,
+);
+
+@each $k, $v in $base-values {
+  .ph-#{$k} {
+    padding-left: #{$v * $base-padding};
+    padding-right: #{$v * $base-padding};
+  }
+  .pv-#{$k} {
+    padding-top: #{$v * $base-padding};
+    padding-bottom: #{$v * $base-padding};
+  }
+  .mh-#{$k} {
+    margin-left: #{$v * $base-margin};
+    margin-right: #{$v * $base-margin};
+  }
+  .mv-#{$k} {
+    margin-top: #{$v * $base-margin};
+    margin-bottom: #{$v * $base-margin};
+  }
+}
+
 // generate classes for accurate pixels
 // width, height, padding and margin
 
@@ -777,15 +819,6 @@ $utilities: (
   }
   .h-#{$i}-px {
     height: #{$i}px;
-  }
-}
-
-@for $i from 1 through 24 {
-  .w-#{$i} {
-    width: $base-width * $i;
-  }
-  .h-#{$i} {
-    height: $base-height * $i;
   }
 }
 

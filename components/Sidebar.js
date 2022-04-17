@@ -46,14 +46,11 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Spacing & Sizing</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Padding</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Margin</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Min-Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Max-Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Min-Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Max-Height</p></Link></li>
+                    <li className="pl-2"><Link href="/padding" passHref><p className={router.pathname == "/padding" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Padding</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/margin" passHref><p className={router.pathname == "/margin" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Margin</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/width-height" passHref><p className={router.pathname == "/width-height" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Width {`&`} Height</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/min-width" passHref><p className={router.pathname == "/min-width" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Min-Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/max-width" passHref><p className={router.pathname == "/max-width" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Max-Width</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Components</h3>
