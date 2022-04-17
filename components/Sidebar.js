@@ -53,17 +53,15 @@ const Sidebar = () => {
                     <li className="pt-1 pl-2"><Link href="/max-width" passHref><p className={router.pathname == "/max-width" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Max-Width</p></Link></li>
                 </ul>
 
-                <h3 className="fw-bold custom-text mt-3">Components</h3>
+                <h3 className={router.pathname == "/components" ? "fw-bold custom-color mt-3" : "fw-bold custom-text mt-3"}>Components</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Avatar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Buttons</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Cards</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Forms</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">List</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Modals</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Navbar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Tables</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Toasts</p></Link></li>
+                    <li className="pl-2"><Link href="/components#avatars" passHref><p className={router.pathname == "/components#avatars" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Avatar</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#buttons" passHref><p className={router.pathname == "/components#buttons" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Buttons</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#card" passHref><p className={router.pathname == "/components#cards" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Cards</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#forms" passHref><p className={router.pathname == "/components#forms" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Forms</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#modals" passHref><p className={router.pathname == "/components#modals" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Modals</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#tables" passHref><p className={router.pathname == "/components#tables" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Tables</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#toasts" passHref><p className={router.pathname == "/components#toasts" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Toasts</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Typography</h3>

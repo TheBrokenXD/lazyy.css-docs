@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="nav shadow-base">
 
-      <div className="nav-content">
+      <div className="nav-content display-f align-i-center">
         <Link href="/" passHref><p className="nav-brand unselectable">lazyycss.</p></Link>
         <div className="display-f align-i-center">
           <div className="nav-burger">
