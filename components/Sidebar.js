@@ -1,9 +1,87 @@
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 
 const Sidebar = () => {
 
     const router = useRouter();
+
+    const classRef1 = useRef(null);
+    const classRef2 = useRef(null);
+    const classRef3 = useRef(null);
+    const classRef4 = useRef(null);
+    const classRef5 = useRef(null);
+    const classRef6 = useRef(null);
+    const classRef7 = useRef(null);
+    
+    useEffect(() => {
+        const url = router.asPath;
+        if( url === '/components#avatars' ) {
+            classRef1.current.classList.add('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#buttons' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.add('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#cards' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.add('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#forms' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.add('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#modals' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.add('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#tables' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.add('active');
+            classRef7.current.classList.remove('active');
+        } else if( url === '/components#toasts' ) {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.add('active');
+        } else {
+            classRef1.current.classList.remove('active');
+            classRef2.current.classList.remove('active');
+            classRef3.current.classList.remove('active');
+            classRef4.current.classList.remove('active');
+            classRef5.current.classList.remove('active');
+            classRef6.current.classList.remove('active');
+            classRef7.current.classList.remove('active');
+        }
+    }, [router]);
 
     return (
         <>
@@ -53,20 +131,20 @@ const Sidebar = () => {
                     <li className="pt-1 pl-2"><Link href="/max-width" passHref><p className={router.pathname == "/max-width" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Max-Width</p></Link></li>
                 </ul>
 
-                <h3 className={router.pathname == "/components" ? "fw-bold custom-color mt-3" : "fw-bold custom-text mt-3"}>Components</h3>
+                <h3 className="fw-bold custom-text mt-3">Components</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="/components#avatars" passHref><p className={router.pathname == "/components#avatars" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Avatar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#buttons" passHref><p className={router.pathname == "/components#buttons" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Buttons</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#card" passHref><p className={router.pathname == "/components#cards" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Cards</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#forms" passHref><p className={router.pathname == "/components#forms" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Forms</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#modals" passHref><p className={router.pathname == "/components#modals" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Modals</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#tables" passHref><p className={router.pathname == "/components#tables" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Tables</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#toasts" passHref><p className={router.pathname == "/components#toasts" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Toasts</p></Link></li>
+                    <li className="pl-2"><Link href="/components#avatars" passHref><p ref={classRef1} className="fw-md pointer unselectable">Avatar</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#buttons" passHref><p ref={classRef2} className="fw-md pointer unselectable">Buttons</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#cards" passHref><p ref={classRef3} className="fw-md pointer unselectable">Cards</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#forms" passHref><p ref={classRef4} className="fw-md pointer unselectable">Forms</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#modals" passHref><p ref={classRef5} className="fw-md pointer unselectable">Modals</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#tables" passHref><p ref={classRef6} className="fw-md pointer unselectable">Tables</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#toasts" passHref><p ref={classRef7} className="fw-md pointer unselectable">Toasts</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Typography</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Family</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/font-family" passHref><p className={router.pathname == "/font-family" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Family</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Size</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Style</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Weight</p></Link></li>
