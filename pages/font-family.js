@@ -31,8 +31,8 @@ const fontFamily = () => {
                         </div>
                         <div className="col-6-xs">
                             <p className='custom-variant-2'>font-family: {`"Google Sans Display", "Roboto"`}, sans-serif;</p>
-                            <p className='custom-variant-2 pt-2'>font-family: "Roboto", sans-serif;</p>
-                            <p className='custom-variant-2 pt-2'>font-family: "Source Code Pro", monospace;</p>
+                            <p className='custom-variant-2 pt-2'>font-family: {`"Roboto",`} sans-serif;</p>
+                            <p className='custom-variant-2 pt-2'>font-family: {`"Source Code Pro"`}, monospace;</p>
                         </div>
                     </div>
                 </div>
