@@ -9,8 +9,7 @@ const margin = () => {
             </Head>
 
             <div className="mt-4 p-4">
-                <p className="custom-color">Spacing {`&`} Sizing</p>
-                <h1 className="custom-text mt-1">Margin</h1>
+                <h1 className="custom-text">Margin</h1>
                 <p className='fw-md custom-sub-text mt-1'>To control an {`element's`} margin.</p>
 
                 <div className='mt-4'>

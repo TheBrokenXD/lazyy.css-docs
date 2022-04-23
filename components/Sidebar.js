@@ -145,9 +145,9 @@ const Sidebar = () => {
                 <h3 className="fw-bold custom-text mt-3">Typography</h3>
                 <ul className="mt-2">
                     <li className="pt-1 pl-2"><Link href="/font-family" passHref><p className={router.pathname == "/font-family" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Family</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Size</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Style</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Font Weight</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/font-size" passHref><p className={router.pathname == "/font-size" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Size</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/font-style" passHref><p className={router.pathname == "/font-style" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Style</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/font-weight" passHref><p className={router.pathname == "/font-weight" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Weight</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Letter Spacing</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Line Height</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Align</p></Link></li>
