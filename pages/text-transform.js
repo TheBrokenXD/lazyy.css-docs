@@ -42,7 +42,7 @@ const textTransform = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-uppercase'>...</p>`
+    `<p class='custom-sub-text text-uppercase'>...</p>`
 }
                         </code>
                     </pre>
@@ -50,7 +50,7 @@ const textTransform = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-lowercase'>...</p>`
+    `<p class='custom-sub-text text-lowercase'>...</p>`
 }
                         </code>
                     </pre>
@@ -58,7 +58,7 @@ const textTransform = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-capitalize'>...</p>`
+    `<p class='custom-sub-text text-capitalize'>...</p>`
 }
                         </code>
                     </pre>
@@ -70,7 +70,7 @@ const textTransform = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='text-capitalize lg-text-lowercase'>...</p>`
+    `<p class='text-capitalize lg-text-lowercase'>...</p>`
 }
                         </code>
                     </pre>

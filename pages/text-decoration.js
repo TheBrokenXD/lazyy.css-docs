@@ -44,7 +44,7 @@ const textDecoration = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='decoration-under'>...</p>`
+    `<p class='decoration-under'>...</p>`
 }
                         </code>
                     </pre>
@@ -52,7 +52,7 @@ const textDecoration = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='decoration-over'>...</p>`
+    `<p class='decoration-over'>...</p>`
 }
                         </code>
                     </pre>
@@ -60,7 +60,7 @@ const textDecoration = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='decoration-through'>...</p>`
+    `<p class='decoration-through'>...</p>`
 }
                         </code>
                     </pre>
@@ -68,7 +68,7 @@ const textDecoration = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='decoration-none'>...</p>`
+    `<p class='decoration-none'>...</p>`
 }
                         </code>
                     </pre>
@@ -80,7 +80,7 @@ const textDecoration = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='decoration-none lg-decoration-over'>...</p>`
+    `<p class='decoration-none lg-decoration-over'>...</p>`
 }
                         </code>
                     </pre>

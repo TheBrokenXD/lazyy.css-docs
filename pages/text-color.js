@@ -14,24 +14,14 @@ const textColor = () => {
 
                 <div className='mt-4'>
                     <h2 className="custom-text">Colors</h2>
-                    <p className='custom-sub-text pt-1'>Any color from the <Link href="/theme"><span className='custom-color'>Themes</span></Link> can be used a text color.</p>
+                    <p className='custom-sub-text pt-1'>Any color from the <Link href="/theme" passHref><span className='custom-color'>Themes</span></Link> can be used a text color.</p>
                     <div className='card custom-main-bg mt-1 p-2'>
                         <p className='custom-text'>Custom Text (#1D1D1D)</p>
                     </div>
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-text'>...</p>`
-}
-                        </code>
-                    </pre>
-                    <div className='card custom-main-bg mt-1 p-2'>
-                        <p className='honey-color'>Honey Color (#FFA789)</p>
-                    </div>
-                    <pre>
-                        <code className="language-html font-f-code">
-{
-    `<p className='honey-color'>...</p>`
+    `<p class='custom-text'>...</p>`
 }
                         </code>
                     </pre>
@@ -41,7 +31,17 @@ const textColor = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='royal-color'>...</p>`
+    `<p class='royal-color'>...</p>`
+}
+                        </code>
+                    </pre>
+                    <div className='card custom-main-bg mt-1 p-2'>
+                        <p className='custom-color'>Custom Color (#FFA789)</p>
+                    </div>
+                    <pre>
+                        <code className="language-html font-f-code">
+{
+    `<p class='custom-color'>...</p>`
 }
                         </code>
                     </pre>
@@ -53,7 +53,7 @@ const textColor = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='royal-text md-royal-color'>...</p>`
+    `<p class='royal-text md-royal-color'>...</p>`
 }
                         </code>
                     </pre>

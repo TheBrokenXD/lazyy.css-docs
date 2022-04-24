@@ -109,7 +109,7 @@ const fontSize = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='ont-lg md-font-xl'>...</p>`
+    `<p class='ont-lg md-font-xl'>...</p>`
 }
                         </code>
                     </pre>

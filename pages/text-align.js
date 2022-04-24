@@ -44,7 +44,7 @@ const textAlign = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-center'>...</p>`
+    `<p class='custom-sub-text text-center'>...</p>`
 }
                         </code>
                     </pre>
@@ -52,7 +52,7 @@ const textAlign = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-left'>...</p>`
+    `<p class='custom-sub-text text-left'>...</p>`
 }
                         </code>
                     </pre>
@@ -60,7 +60,7 @@ const textAlign = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-right'>...</p>`
+    `<p class='custom-sub-text text-right'>...</p>`
 }
                         </code>
                     </pre>
@@ -68,7 +68,7 @@ const textAlign = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text text-justify'>...</p>`
+    `<p class='custom-sub-text text-justify'>...</p>`
 }
                         </code>
                     </pre>
@@ -80,7 +80,7 @@ const textAlign = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='text-left lg-text-center'>...</p>`
+    `<p class='text-left lg-text-center'>...</p>`
 }
                         </code>
                     </pre>

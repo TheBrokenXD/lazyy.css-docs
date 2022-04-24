@@ -133,13 +133,13 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Components</h3>
                 <ul className="mt-2">
-                    <li className="pl-2"><Link href="/components#avatars" passHref><p ref={classRef1} className="fw-md pointer unselectable">Avatar</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#buttons" passHref><p ref={classRef2} className="fw-md pointer unselectable">Buttons</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#cards" passHref><p ref={classRef3} className="fw-md pointer unselectable">Cards</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#forms" passHref><p ref={classRef4} className="fw-md pointer unselectable">Forms</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#modals" passHref><p ref={classRef5} className="fw-md pointer unselectable">Modals</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#tables" passHref><p ref={classRef6} className="fw-md pointer unselectable">Tables</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="/components#toasts" passHref><p ref={classRef7} className="fw-md pointer unselectable">Toasts</p></Link></li>
+                    <li className="pl-2"><Link href="/components#avatars" passHref><p ref={classRef1} className="fw-md custom-sub-text pointer unselectable">Avatar</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#buttons" passHref><p ref={classRef2} className="fw-md custom-sub-text pointer unselectable">Buttons</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#cards" passHref><p ref={classRef3} className="fw-md custom-sub-text pointer unselectable">Cards</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#forms" passHref><p ref={classRef4} className="fw-md custom-sub-text pointer unselectable">Forms</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#modals" passHref><p ref={classRef5} className="fw-md custom-sub-text pointer unselectable">Modals</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#tables" passHref><p ref={classRef6} className="fw-md custom-sub-text pointer unselectable">Tables</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/components#toasts" passHref><p ref={classRef7} className="fw-md custom-sub-text pointer unselectable">Toasts</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Typography</h3>

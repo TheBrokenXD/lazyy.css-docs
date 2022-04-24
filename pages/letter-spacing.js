@@ -46,7 +46,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text ls-tight'>...</p>`
+    `<p class='custom-sub-text ls-tight'>...</p>`
 }
                         </code>
                     </pre>
@@ -54,7 +54,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text ls-normal'>...</p>`
+    `<p class='custom-sub-text ls-normal'>...</p>`
 }
                         </code>
                     </pre>
@@ -62,7 +62,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text ls-0'>...</p>`
+    `<p class='custom-sub-text ls-0'>...</p>`
 }
                         </code>
                     </pre>
@@ -70,7 +70,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text ls-wide'>...</p>`
+    `<p class='custom-sub-text ls-wide'>...</p>`
 }
                         </code>
                     </pre>
@@ -78,7 +78,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text ls-wider'>...</p>`
+    `<p class='custom-sub-text ls-wider'>...</p>`
 }
                         </code>
                     </pre>
@@ -90,7 +90,7 @@ const letterSpacing = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='ls-normal lg-ls-wide'>...</p>`
+    `<p class='ls-normal lg-ls-wide'>...</p>`
 }
                         </code>
                     </pre>

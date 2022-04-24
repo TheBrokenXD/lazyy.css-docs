@@ -46,7 +46,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text lh-small'>...</p>`
+    `<p class='custom-sub-text lh-small'>...</p>`
 }
                         </code>
                     </pre>
@@ -54,7 +54,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text lh-1'>...</p>`
+    `<p class='custom-sub-text lh-1'>...</p>`
 }
                         </code>
                     </pre>
@@ -62,7 +62,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text lh-normal'>...</p>`
+    `<p class='custom-sub-text lh-normal'>...</p>`
 }
                         </code>
                     </pre>
@@ -70,7 +70,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text lh-2'>...</p>`
+    `<p class='custom-sub-text lh-2'>...</p>`
 }
                         </code>
                     </pre>
@@ -78,7 +78,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text lh-3'>...</p>`
+    `<p class='custom-sub-text lh-3'>...</p>`
 }
                         </code>
                     </pre>
@@ -90,7 +90,7 @@ const lineHeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='lh-1 lg-lh-normal'>...</p>`
+    `<p class='lh-1 lg-lh-normal'>...</p>`
 }
                         </code>
                     </pre>

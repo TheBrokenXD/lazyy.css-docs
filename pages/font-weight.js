@@ -42,7 +42,7 @@ const fontWeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text fw-reg'>...</p>`
+    `<p class='custom-sub-text fw-reg'>...</p>`
 }
                         </code>
                     </pre>
@@ -54,7 +54,7 @@ const fontWeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text fw-md'>...</p>`
+    `<p class='custom-sub-text fw-md'>...</p>`
 }
                         </code>
                     </pre>
@@ -66,7 +66,7 @@ const fontWeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text fw-bold'>...</p>`
+    `<p class='custom-sub-text fw-bold'>...</p>`
 }
                         </code>
                     </pre>
@@ -78,7 +78,7 @@ const fontWeight = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='fw-reg md-fw-bold'>...</p>`
+    `<p class='fw-reg md-fw-bold'>...</p>`
 }
                         </code>
                     </pre>

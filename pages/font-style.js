@@ -40,7 +40,7 @@ const fontStyle = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text fs-italic'>...</p>`
+    `<p class='custom-sub-text fs-italic'>...</p>`
 }
                         </code>
                     </pre>
@@ -52,7 +52,7 @@ const fontStyle = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='custom-sub-text fs-normal'>...</p>`
+    `<p class='custom-sub-text fs-normal'>...</p>`
 }
                         </code>
                     </pre>
@@ -64,7 +64,7 @@ const fontStyle = () => {
                     <pre>
                         <code className="language-html font-f-code">
 {
-    `<p className='fs-normal lg-fs-normal'>...</p>`
+    `<p class='fs-normal lg-fs-normal'>...</p>`
 }
                         </code>
                     </pre>
