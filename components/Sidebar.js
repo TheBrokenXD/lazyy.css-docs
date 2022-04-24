@@ -148,12 +148,12 @@ const Sidebar = () => {
                     <li className="pt-1 pl-2"><Link href="/font-size" passHref><p className={router.pathname == "/font-size" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Size</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="/font-style" passHref><p className={router.pathname == "/font-style" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Style</p></Link></li>
                     <li className="pt-1 pl-2"><Link href="/font-weight" passHref><p className={router.pathname == "/font-weight" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Font Weight</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Letter Spacing</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Line Height</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Align</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Color</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Decoration</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Text Transform</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/letter-spacing" passHref><p className={router.pathname == "/letter-spacing" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Letter Spacing</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/line-height" passHref><p className={router.pathname == "/line-height" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Line Height</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/text-align" passHref><p className={router.pathname == "/text-align" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Text Align</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/text-color" passHref><p className={router.pathname == "/text-color" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Text Color</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/text-decoration" passHref><p className={router.pathname == "/text-decoration" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Text Decoration</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/text-transform" passHref><p className={router.pathname == "/text-transform" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Text Transform</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Borders</h3>

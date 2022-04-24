@@ -527,21 +527,21 @@ $utilities: (
   "letter-spacing": (
     "prefix": "ls",
     "values": (
-      "tight": -0.5,
+      "tight": -.06em,
       "normal": $letter-spacing,
       "0": 0,
-      "wide": 0.25,
-      "wider": 0.5
+      "wide": 0.25em,
+      "wider": 0.5em
     )
   ),
   "line-height": (
     "prefix": "lh",
     "values": (
       "small": .75,
-      "normal": 1,
-      "02": $line-height,
-      "03": 1.25,
-      "04": 1.5
+      "1": 1,
+      "normal": $line-height,
+      "2": 1.25,
+      "3": 1.5
     )
   ),
   "text-align": (
