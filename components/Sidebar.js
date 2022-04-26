@@ -158,21 +158,21 @@ const Sidebar = () => {
 
                 <h3 className="fw-bold custom-text mt-3">Borders</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Right</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Width</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Border Style</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/border-radius" passHref><p className={router.pathname == "/border-radius" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Border Radius</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/border-width" passHref><p className={router.pathname == "/border-width" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Border Width</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/border-style" passHref><p className={router.pathname == "/border-style" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Border Style</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Effects</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Box Shadow</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Opacity</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/box-shadow" passHref><p className={router.pathname == "/box-shadow" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Box Shadow</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/opacity" passHref><p className={router.pathname == "/opacity" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Opacity</p></Link></li>
                 </ul>
 
                 <h3 className="fw-bold custom-text mt-3">Interaction</h3>
                 <ul className="mt-2">
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Cursor</p></Link></li>
-                    <li className="pt-1 pl-2"><Link href="#" passHref><p className="fw-md custom-sub-text pointer unselectable">Scroll Behaviour</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/cursor" passHref><p className={router.pathname == "/cursor" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Cursor</p></Link></li>
+                    <li className="pt-1 pl-2"><Link href="/scroll-behavior" passHref><p className={router.pathname == "/scroll-behavior" ? "fw-md custom-color pointer unselectable" : "fw-md custom-sub-text pointer unselectable"}>Scroll Behavior</p></Link></li>
                 </ul>
 
             </div>

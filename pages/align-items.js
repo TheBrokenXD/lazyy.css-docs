@@ -25,13 +25,13 @@ const alignItems = () => {
                     <div className="row pt-2">
                         <div className="col-6-xs">
                             <p className='custom-color'>align-i-start</p>
-                            <p className='custom-color pt-1'>align-i-end</p>
-                            <p className='custom-color pt-1'>align-i-center</p>
+                            <p className='custom-color pt-2'>align-i-end</p>
+                            <p className='custom-color pt-2'>align-i-center</p>
                         </div>
                         <div className="col-6-xs">
                             <p className='custom-variant-2'>align-items: start;</p>
-                            <p className='custom-variant-2 pt-1'>align-items: end;</p>
-                            <p className='custom-variant-2 pt-1'>align-items: center;</p>
+                            <p className='custom-variant-2 pt-2'>align-items: end;</p>
+                            <p className='custom-variant-2 pt-2'>align-items: center;</p>
                         </div>
                     </div>
                 </div>

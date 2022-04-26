@@ -576,11 +576,11 @@ $utilities: (
   "border-radius": (
     "prefix": "br",
     "values": (
-      "default": $base-border-radius,
+      "base": $base-border-radius,
       "none": 0,
       "xs": math.div($base-border-radius, 4),
       "sm": math.div($base-border-radius, 2),
-      "md": $base-border-radius,
+      "md": $base-border-radius * 1.5,
       "lg": $base-border-radius * 2,
       "full": 9999px,
     )
@@ -671,12 +671,14 @@ $utilities: (
   "box-shadow": (
     "prefix": "shadow",
     "values": (
-      "base": $base-box-shadow
+      "base": $base-box-shadow,
+      "extra": $extra-box-shadow
     )
   ),
   "opacity": (
     "prefix": "o",
     "values": (
+      "0": 0,
       "10": 0.1,
       "20": 0.2,
       "30": 0.3,
@@ -712,8 +714,7 @@ $utilities: (
     "prefix": "scroll",
     "values": (
       "smooth": smooth,
-      "auto": auto,
-      "instant": instant,
+      "auto": auto
     ),
   )
 
